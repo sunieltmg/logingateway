@@ -69,8 +69,8 @@ def login():
         #                 'username': '1@local',
         #                 'Session': sessionId}
 
-        creds = {'username': 'softwarica',
-                    'password': 'coventry',
+        creds = {'username': '@user',
+                    'password': '****',
                     'accesscode': '',
                     'vlan_id': '106'}
         # sys.exit(0)
@@ -193,5 +193,5 @@ sessId = login()
 # 2. can use others ip address to logout corresponding devices. alas it doesnt depend on ip address but the sessionId
 # sent params=ip=172.26.10.37 this is the cmd ipconfig ipv4 address
 # but sent params=gwip=172.16.17.2 seems always same
-# also username = softwarica, password=coventry
+# also username = @user, password=*****
 input()
